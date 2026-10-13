@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "coolscankit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/EDalhus/CoolscanKit.git",
+      "state" : {
+        "revision" : "6a54894270cc9071969ea254b8bc42434ea8c714",
+        "version" : "1.0.0"
+      }
+    }
+  ],
+  "version" : 2
+}
