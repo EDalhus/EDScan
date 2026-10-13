@@ -4,6 +4,21 @@ A professional, keyboard-fast macOS scanning station for Nikon Coolscan film sca
 
 > **Beta.** Not affiliated with Nikon Corporation or Fujifilm.
 
+![ED Scan job list — every preview and scan is a job with customer, input, output, status and scan time](docs/screenshots/job-list.png)
+
+## Screenshots
+
+| | |
+| --- | --- |
+| ![Order Entry](docs/screenshots/order-entry.png) | ![Frame check](docs/screenshots/frame-check.png) |
+| **Order Entry** — film type, image size, output service and customer, remembered between films | **Frame check** — per-frame C/M/Y/D, tone code and P.SET (frame 5 skipped) |
+| ![Tone Adjustment](docs/screenshots/tone-adjustment.png) | ![Image Correct](docs/screenshots/image-correct.png) |
+| **Tone Adjustment** — seven tone curves previewed on the actual frame, plus Hypertone | **Image Correct** — sharpness, saturation, monotone, auto exposure, rotate, P.SET |
+| ![Customer Images](docs/screenshots/customer-images.png) | |
+| **Customer Images** — every image from every job of a customer | |
+
+<sub>Screenshots use the built-in Simulated Scanner, so the frames are placeholder images.</sub>
+
 ## Download
 
 Get the latest build from [**Releases**](https://github.com/EDalhus/EDScan/releases) (`ED-Scan-<version>.zip`), unzip it and move **ED Scan.app** to Applications.

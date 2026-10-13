@@ -69,7 +69,7 @@ private struct FrameCell: View {
             VStack(spacing: 4) {
                 HStack(spacing: 2) {
                     FieldBox(text: "\(frame + 1)", width: 60, light: false)
-                    FieldBox(text: c.tone.code + (c.hypertone ? "H" : ""), width: 30, light: false)
+                    FieldBox(text: c.tone.code + (c.hypertone ? "H" : ""), width: 44, light: false)
                     Spacer()
                     FieldBox(text: station.order.imageSize.code + (c.rotation != 0 ? " \(c.rotation)°" : ""), width: 62, align: .trailing)
                 }
